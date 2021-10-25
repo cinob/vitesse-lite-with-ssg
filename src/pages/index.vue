@@ -14,7 +14,7 @@ const go = () => {
       <carbon-campsite class="inline-block" />
     </p>
     <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
+      <a rel="noreferrer" href="https://github.com/cinob/vitesse-lite-with-ssg" target="_blank">
         Vitesse Lite
       </a>
     </p>
