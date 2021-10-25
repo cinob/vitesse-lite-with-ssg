@@ -9,7 +9,7 @@ declare module 'vue' {
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    Footer: typeof import('C:/works/vite-programs/vitesse-lite-with-ssg/src/components/Footer.vue')['default']
+    Footer: typeof import('C:/works/nfshop/src/components/Footer.vue')['default']
   }
 }
 

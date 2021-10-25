@@ -11,7 +11,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 export default defineConfig({
   resolve: {
     alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
+      '@/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
   plugins: [
@@ -57,11 +57,17 @@ export default defineConfig({
     },
   },
 
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+  },
+
   optimizeDeps: {
     include: [
       'vue',
       'vue-router',
       '@vueuse/core',
+      '@vueuse/head',
     ],
     exclude: [
       'vue-demi',

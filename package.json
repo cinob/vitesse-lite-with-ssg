@@ -1,12 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vite --port 3333 --open",
-    "build": "cross-env NODE_ENV=production vite build",
+    "dev": "vite --port 3333",
+    "build": "vite-ssg build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@vueuse/core": "^6.5.3",
+    "@vueuse/head": "^0.6.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.0-rc.14",
     "vue": "^3.2.19",
     "vue-demi": "^0.11.4",
     "vue-router": "^4.0.11"
@@ -15,7 +18,11 @@
     "@antfu/eslint-config": "^0.9.0",
     "@iconify-json/carbon": "^1.0.3",
     "@types/node": "^16.10.2",
+    "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.2.20",
+    "@vue/server-renderer": "^3.2.20",
+    "critters": "^0.0.14",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "pnpm": "^6.16.0",
@@ -25,6 +32,7 @@
     "unplugin-vue-components": "^0.15.6",
     "vite": "^2.6.2",
     "vite-plugin-pages": "^0.18.1",
-    "vite-plugin-windicss": "^1.4.9"
+    "vite-plugin-windicss": "^1.4.9",
+    "vite-ssg": "^0.15.5"
   }
 }

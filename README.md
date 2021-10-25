@@ -16,7 +16,6 @@
 
 - ~~i18n~~
 - ~~Layouts~~
-- ~~SSG~~
 - ~~PWA~~
 - ~~Markdown~~
 
@@ -28,11 +27,17 @@
 
 - 📦 [Components auto importing](./src/components)
 
+- 🍍 [State Management via Pinia](https://pinia.esm.dev/)
+
 - 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
 
 - 😃 [Use icons from any icon sets, with no compromise](./src/components)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
+
+- 🖨 Server-side generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
+
+- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
 
 - 🦾 TypeScript, of course
 
@@ -57,10 +62,12 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
+- [Pinia](https://pinia.esm.dev) - Intuitive, type safe, light and flexible Store for Vue using the composition api
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - Windi CSS integration
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
 
 ## Try it now!
 
