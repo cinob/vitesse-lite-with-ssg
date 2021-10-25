@@ -73,7 +73,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
+[Create a repo from this template on GitHub](https://github.com/cinob/vitesse-lite-with-ssg/generate).
 
 ### Clone to local
 
