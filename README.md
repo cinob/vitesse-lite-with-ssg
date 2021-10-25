@@ -3,7 +3,7 @@
 </p>
 
 <h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
+<a href="https://vitesse-lite-with-ssg.netlify.app/">Live Demo</a>
 </h6>
 
 <h5 align='center'>
