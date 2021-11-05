@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import { isDark, toggleDark } from '@/logic'
+import { isDark, toggleDark } from '@/composables'
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
-    <button class="icon-btn mx-2 !outline-none" @click="toggleDark">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
+  <nav text-xl mt-6 inline-flex gap-2>
+    <button class="icon-btn !outline-none" @click="toggleDark()">
+      <div v-if="isDark" i-carbon-moon />
+      <div v-else i-carbon-sun />
     </button>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/cinob/vitesse-lite-with-ssg" target="_blank" title="GitHub">
-      <carbon-logo-github />
-    </a>
+    <a
+      class="icon-btn"
+      i-carbon-logo-github
+      rel="noreferrer"
+      href="https://github.com/cinob/vitesse-lite-with-ssg"
+      target="_blank"
+      title="GitHub"
+    />
   </nav>
 </template>
