@@ -57,7 +57,6 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
 - [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-- [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - using icons as components on-demand
 
 ### Plugins
 
