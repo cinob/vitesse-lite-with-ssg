@@ -3,11 +3,9 @@ import { ViteSSG } from 'vite-ssg'
 import routes from 'virtual:generated-pages'
 import App from './App.vue'
 
-// windicss layers
-import 'virtual:windi-base.css'
-import 'virtual:windi-components.css'
+import '@unocss/reset/tailwind.css'
 import './styles/main.css'
-import 'virtual:windi-utilities.css'
+import 'uno.css'
 
 export const createApp = ViteSSG(
   App,
